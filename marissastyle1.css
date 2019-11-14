@@ -1,0 +1,73 @@
+body{
+    font-family:'Lato',sans-serif;
+}
+h1{
+    color:white;
+    font-family:'Permanent Marker',cursive;
+}
+h2{
+    font-family:'Permanent Marker',cursive;
+}
+h4{
+    
+}
+h5{
+    font-family:'Permanent Marker',cursive;
+    font-size: 3em;
+}
+button{
+            border:none;
+            background-color:#00B8FF;
+            color:white;
+        }
+button:hover{
+        border: 1px solid #00B8FF;
+        background-color:white;
+        outline:solid;
+        color:#00B8FF;
+        }
+button:active{
+        background-color:#D2232A;
+        border:none;
+        color:white;
+        }
+.menu{
+    font-family:'Permanent Marker',cursive;
+}
+.container img{
+    margin-bottom:5%;
+}
+.staff img{
+    border-radius:100%;
+}
+#bottom{
+}
+#fall{
+    background-color:#FAA8A8;
+    padding:5% 2% 5% 2%;
+    text-align:center;
+    color:white;
+}
+
+.sweater{
+            background-color:black;
+            color:white;
+            padding:5%;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top:10%;
+            column-gap:5%;
+
+        }
+@media(min-width:700px){
+        .container{
+            margin-bottom:5%;
+        }
+        #sweaterimg{
+            grid-column-start:1;
+            grid-column-end: 3;
+        }
+        h3{
+            font-size:1.5em;
+        }
+    }
